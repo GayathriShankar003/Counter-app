@@ -21,4 +21,4 @@ def decrement():
   return render_template('index.html', number=db['number']) 
 
 
-app.run(host='0.0.0.0', port=81)
+app.run(host='0.0.0.0',port=81)
